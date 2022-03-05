@@ -3,11 +3,11 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    var y = "";
-    for (var i = x.length - 1; i >= 0; i--) {
-        y += str[i];
+    let y = "";
+    for (let i = x.length - 1; i >= 0; i--) {
+        y += x[i];
     }
-    if (x = y) {
+    if (x == y) {
         return "Is a palindrome.";
     }
     else {
